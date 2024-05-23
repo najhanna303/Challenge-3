@@ -1,0 +1,35 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-weight: 400, 700;
+    color: hsl(187, 24%, 22%);
+    background-color:  hsl(148, 38%, 91%)
+}
+
+.container{
+    border-radius: 10px
+}
+.form-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap:10px;
+}
+
+.main-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: hsl(169, 82%, 27%);
+    width: 100%;
+    color: hsl(148, 38%, 91%);
+}
+.success{
+    background-color:hsl(213, 19%, 18%);
+    color:  hsl(148, 38%, 91%)
+}
+
